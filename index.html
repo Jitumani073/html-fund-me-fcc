@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fund Me App</title>
+</head>
+<body>
+    <h1> Fund Me App </h1> 
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+        type="application/javascript"></script>
+    <script src="./index.js" type="module"></script>
+    <div>
+    <button id="connectButton"> Connect </button>
+    </div>
+    <div>
+    <button id="fundButton"> Fund </button>
+    </div>
+    <div>
+    <label for="fund"> ETH Amount </label>
+    <input id="ethAmount" placeholder="0.1"/>
+    </div>
+    <div>
+    <button id="withdrawButton"> Withdraw </button>
+    </div>
+    <div>
+    <button id="balanceButton"> getBalance </button>
+    <a>:</a>
+    <a id="balance" >0.0</a>
+    </div>
+</body>
+</html>
